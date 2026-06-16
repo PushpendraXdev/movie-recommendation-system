@@ -13,8 +13,8 @@ from dotenv import load_dotenv
 
 # =========================
 # ENV
-# =========================
-
+# ========================
+API_BASE="https://movie-recommendation-system-vnyv.onrender.com/"
 load_dotenv()
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
